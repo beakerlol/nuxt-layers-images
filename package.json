@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "cd base && npm i && cd ../main && npm i && npm run build && node .output/server/index.mjs"
+  }
+}
